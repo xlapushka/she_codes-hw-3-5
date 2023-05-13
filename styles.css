@@ -37,6 +37,26 @@ h2 {
   text-align: start;
 }
 
+@media (max-width: 576px) {
+  .hh1 {
+    font-size: 48px;
+  }
+
+  .hh2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .div-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .div-img {
+    display: 0;
+  }
+}
+
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -148,4 +168,10 @@ p {
   background: var(--secondary-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow-hover);
+}
+
+.div-img,
+.div-text {
+  width: 50%;
+  outline: 1px solid green;
 }
